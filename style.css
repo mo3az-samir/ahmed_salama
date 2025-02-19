@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Tajawal:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Tajawal", serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between ;
+    max-width: 1100px;
+    height: 10vh;
+    align-items: center;
+    margin: 0 auto  ;
+    padding: 0 5rem;
+}
+nav .logo{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+nav .logo img{
+    color: brown;
+    padding-left: 0.75rem;
+    width: 2.5rem;
+}
+nav .logo h4{
+    font-family: "Lalezar",;
+    font-size: 18px;
+}
+nav .nav-item{
+    display: flex;
+    list-style: none;
+}
+nav .nav-item .nav-itam{
+    padding: 0 1rem;
+}
+nav .nav-link{
+    text-decoration: none;
+    color:#021288;
+    font-size: 1.4rem;
+}
+nav .nav-link:hover{
+    color: rgb(185, 185, 185);
+}
+nav .menu img{
+    width: 2rem;
+}
+nav .menu{
+    display: none;
+}
+/* hero section */
+.hero{
+    background-color: #f8f7fc;
+}
+.hero-section{
+    max-width: 1100px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.hero-section .content{
+    display: flex;
+    flex-direction: column;
+}
+.hero-section h4{
+    color: #021288;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.hero-section .content h1{
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+}
+.hero-section .content h1 span{
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+    color: #180b8a;
+}
+.hero-section p{
+    color:#48484b;
+    font-size: 1.4rem;
+}
+.hero-section p span{
+    color: #021288;
+}
+.btn{
+    width: 8rem;
+    margin-top: 2.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    padding: 0.50rem 0.4rem;
+    background-color: #2c41e4;
+    color: #f8f7fc;
+    font-size: 23px;
+}
+.btn:hover{
+    background-color: #87b8f8;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.hero-image img{
+   width: 30rem;
+}
+.button a{
+    color: #f8f7fc;
+}
+
+/* Section page 2 */
+
+section.page{
+    padding: 2rem 0;
+    background-color: #f8f7fc;
+}
+section.page .page-section{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.page-section h4{
+    color: #2c41e4;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.page-section .qulites{
+   display: flex;
+   justify-content: space-between;
+}
+.page-section .qulites .qqq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem;
+
+}
+.qqq img{
+    width: 7.5rem;
+}
+.page-section .qulites .qqq:hover{
+    border:2px solid #2c41e4
+    
+}
+.qulites .qqq{
+    font-size: 1rem;
+    color: #121a58;
+    margin-bottom: 1rem;
+}
+.qulites .qqq img{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.qulites .qqq h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #180b8a;
+}
+.qulites .qqq p{
+    font-size:1.2rem;
+    align-items: center;
+    color: #021288;
+}
+
+/* Section page 3 */
+.new-vid{
+    padding-top: 5rem;
+}
+.new-vid .vid-section{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.vid-section h4{
+    color: #2c41e4;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.vid-section .vid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: flex-start;
+}
+.vids img{
+    width: 20rem;
+    margin-bottom: 1rem;
+    /* margin-left: -14rem; */
+}
+.vid .vids{
+    margin: 2rem 0;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vid img:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+.vids h3{
+    font-size: 1.5rem;
+}
+.vid-section button{
+    width: 11rem;
+    margin-bottom: 1rem;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    background-color: #2c41e4;
+    text-decoration-line: value;
+    text-decoration-line: none;
+    text-decoration: none;
+    font-size: 100.rem;
+}
+.vid-section button .btn{
+    text-decoration-line:none;
+    color: rgb(91, 101, 255);
+    font-size: 20rem;
+}
+/* footer */
+footer{
+    background-color: #f8f7fc;
+    height: 15vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.footer-section p{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.footer-section .medi{
+    margin-bottom: 3rem;
+   
+}
+.medi img{
+    width: 2.4rem;
+    padding: 0 5px;
+}
+
+.medi img:hover{
+    cursor: pointer;
+    background-color: #b2b1b9;
+}
+/*   Resbonsive */
+@media (max-width: 1093px){
+    *{
+        font-size: 85%;
+    }
+}
+@media (max-width: 875px){
+    *{
+        font-size: 80%;
+    }
+}
+@media (max-width: 875px){
+    *{
+        align-items: center;
+    }
+    .hero-image{
+        display: none;
+    }
+    .hero-section{
+        align-items: center;
+        padding: 2rem 0;
+        width: 50%;
+    }
+    .page-section .qulites{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.page .page-section{
+        align-items: center;
+    }
+    .hero-section{
+        height: 80vh;
+    }
+}
+@media (max-width: 877px){
+    .hero-section .content h1{
+        font-size: 2rem;
+    }
+    .vid-section{
+      align-items: center;
+    }
+    .vid-section .vid{
+        grid-template-columns: 1fr;
+    }
+    
+}
+@media (max-width: 600px){
+    .hero-section .content h1{
+        font-size: 1.7rem;
+    }
+}
+@media (max-width: 500px){
+    .hero-section .content{
+        font-size: .01rem;
+    }
+    .hero-section .content h1 span{
+        align-items: center;
+    }
+    nav .menu{
+        display: block;
+    }
+    nav .nav-itam{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 10vh;
+        flex-direction: column;
+        width: 100%;
+        background-color: #2c41e4;
+        padding: 2rem 0;
+    }
+    nav .nav-itam .nav-itam{
+        margin: 1rem 0;
+    }
+    nav .nav-itam .nav-itam a{
+        color: #f8f7fc;
+    }
+    nav .nav-item .active{
+        display: flex;
+    }
+}
+@media (max-width: 689px){
+    .hero-section .content h1{
+        font-size: 1.7rem;
+    }
+}
+@media (max-width: 1092px){
+    .hero-section .content h1{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 430px){
+    *{
+        font-size: 65%;
+    }
+}    .hero-section .content h1{
+    font-size: 2.3rem;
+    justify-content: center;
+}
+.hero-section .content h1 span{
+    font-size: 1.9rem;
+}
+.hero-section p span{
+    font-size: 1.6rem;
+}
+.active :hover{
+    transition: 0.3s;
+}
+/* From Uiverse.io by andrew-demchenk0 */ 
+/* From Uiverse.io by mahtabmurad24 */ 
+.button {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-block: 0.5rem;
+    padding-inline: 1.25rem;
+    background-color: rgb(0 107 179);
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    gap: 10px;
+    font-weight: bold;
+    border: 3px solid #ffffff4d;
+    outline: none;
+    overflow: hidden;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .facebook {
+    width: 20px;
+    height: 24px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+    border-color: #fff9;
+  }
+  
+  .button:hover .facebook {
+    transform: translate(4px);
+  }
+  
+  .button:hover::before {
+    animation: shine 1.5s ease-out infinite;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+  }
+  
+  @keyframes shine {
+    0% {
+      left: -100px;
+    }
+  
+    60% {
+      left: 100%;
+    }
+  
+    to {
+      left: 100%;
+    }
+  }
+  
